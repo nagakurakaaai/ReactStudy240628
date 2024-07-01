@@ -8,7 +8,7 @@ function Top() {
   return (
     <>
     <div className="wrapper">
-      <Header />
+      <Header flag="top"/>
       <KeyVisual />
         <main className="content">
           <News />

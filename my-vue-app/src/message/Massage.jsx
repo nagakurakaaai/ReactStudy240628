@@ -3,13 +3,12 @@ import Hooter from '../common/Hooter.jsx'
 import PageHeader from '../common/PageHeader.jsx'
 import PresidentMassage from './PresidentMassage.jsx'
 import OfficePicture from './OfficePicture.jsx'
-// import Service from './Service.jsx'
 
 function Massage() {
   return (
     <>
     <div className="wrapper">
-      <Header />
+      <Header flag="message"/>
       <PageHeader title="メッセージ"/>
         <main className="content">
           <PresidentMassage />

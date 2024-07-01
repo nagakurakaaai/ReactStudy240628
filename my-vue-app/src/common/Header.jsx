@@ -1,6 +1,9 @@
+import PropTypes from 'prop-types';
 import logo from '/img/logo.svg'
 
-function Header() {
+function Header(props) {
+  const {flag} = props
+
   return (
     <>
     <header className="header">
@@ -10,9 +13,9 @@ function Header() {
       <div className="header__nav">
         <nav className="gnav">
           <ul className="gnav__list">
-            <li className="gnav__item"><a className="gnav__link gnav__link--active" href=".">ホーム</a></li>
-            <li className="gnav__item"><a className="gnav__link" href="message.html">メッセージ</a></li>
-            <li className="gnav__item"><a className="gnav__link" href="company.html">会社概要</a></li>
+            <li className="gnav__item"><a className={flag === "top" ? "gnav__link gnav__link--active" : "gnav__link"} href=".">ホーム</a></li>
+            <li className="gnav__item"><a className={flag === "message" ? "gnav__link gnav__link--active" : "gnav__link"} href="message.html">メッセージ</a></li>
+            <li className="gnav__item"><a className={flag === "company" ? "gnav__link gnav__link--active" : "gnav__link"} href="company.html">会社概要</a></li>
           </ul>
         </nav>
         <button type="button" id="js-btn-menu" className="btn-menu">
@@ -23,5 +26,9 @@ function Header() {
     </>
   )
 }
+
+Header.propTypes = {
+  flag: PropTypes.string,
+};
 
 export default Header

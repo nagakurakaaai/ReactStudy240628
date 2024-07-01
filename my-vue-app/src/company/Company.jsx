@@ -8,7 +8,7 @@ function Company() {
   return (
     <>
     <div className="wrapper">
-      <Header />
+      <Header flag="company"/>
       <PageHeader title="会社概要"/>
         <main className="content">
           <CompanyInfo />

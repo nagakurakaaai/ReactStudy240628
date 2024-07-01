@@ -2,6 +2,7 @@ import PropTypes from 'prop-types';
 
 function PageHeader(props) {
   const {title} = props
+  
   return (
     <>
     <div className="page-header">
