@@ -1,6 +1,4 @@
-// import styles from '../style.module.css'
-// import Article from './Article.jsx'
-import logo from '../img/logo.svg'
+import logo from '/img/logo.svg'
 
 function Header() {
   return (
