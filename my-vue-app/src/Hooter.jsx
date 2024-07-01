@@ -2,16 +2,16 @@
 function Hooter() {
   return (
     <>
-    <footer class="footer">
-      <div class="container">
-        <nav class="footer-nav">
-          <ul class="footer-nav__list">
-            <li class="footer-nav__item"><a class="footer-nav__link" href=".">ホーム</a></li>
-            <li class="footer-nav__item"><a class="footer-nav__link" href="message.html">メッセージ</a></li>
-            <li class="footer-nav__item"><a class="footer-nav__link" href="company.html">会社概要</a></li>
+    <footer className="footer">
+      <div className="container">
+        <nav className="footer-nav">
+          <ul className="footer-nav__list">
+            <li className="footer-nav__item"><a className="footer-nav__link" href=".">ホーム</a></li>
+            <li className="footer-nav__item"><a className="footer-nav__link" href="message.html">メッセージ</a></li>
+            <li className="footer-nav__item"><a className="footer-nav__link" href="company.html">会社概要</a></li>
           </ul>
         </nav>
-        <div class="footer__copyright">&copy;START</div>
+        <div className="footer__copyright">&copy;START</div>
       </div>
     </footer>
     </>
