@@ -1,4 +1,4 @@
-import ServiceArticle from '/src/top/ServiceArticle.jsx'
+import ServiceArticle from './ServiceArticle.jsx'
 
 function Service() {
   return (
