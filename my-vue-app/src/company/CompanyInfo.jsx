@@ -1,4 +1,3 @@
-
 function CompanyInfo() {
   return (
     <>

@@ -1,4 +1,3 @@
-
 function KeyVisual() {
   return (
     <>

@@ -1,4 +1,3 @@
-
 function OfficePicture() {
   return (
     <>
